@@ -48,5 +48,3 @@ YOU HAVE BEEN WARNED!
 - Windows: `python bot.py <config filepath>`
 - Linux: `python3 bot.py <config filepath>`
 - Check `example.cfg` for how to configure the config file
-
-![WYSI](https://c.tenor.com/zbPLwrk_K44AAAAC/wysi.gif)
