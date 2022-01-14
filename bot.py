@@ -22,7 +22,7 @@ async def on_ready():
     print("We do a bit of trolling. (The script is connected to the client and is active)")
     print(f"Logged in as {client.user.name}")
     while 1:
-        if (datetime.now().hour == 17 or datetime.now().hour == 7) and datetime.now().minute == 27 and not WysiSent:
+        if (datetime.now().hour == 19 or datetime.now().hour == 7) and datetime.now().minute == 27 and not WysiSent:
             for dm in dmIDs:
                 print("+=============================================================================================+")
                 print("| It is the current local time of the funny WYSI cookiezi funny blue zenith 727 funny number! |")
