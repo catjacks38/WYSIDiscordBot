@@ -31,6 +31,7 @@ async def on_ready():
                 await (await client.fetch_user(dm)).send("WYSI")
                 await (await client.fetch_user(dm)).send("WYFSI")
                 await (await client.fetch_user(dm)).send("https://tenor.com/view/wysi-gif-21694798")
+            WysiSent = True
         else:
             WysiSent = False
 
