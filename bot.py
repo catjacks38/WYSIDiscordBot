@@ -1,5 +1,6 @@
 from discord import Client
 from datetime import datetime
+from time import sleep
 import sys
 
 client = Client()
@@ -14,7 +15,7 @@ except:
 with open(configFn, "rt") as configFile:
     config = configFile.readlines()
     clientToken = config[0]
-    dmIDs = map(int, config[1:])
+    dmIDs = list(map(int, config[1:]))
 
 
 @client.event
@@ -24,6 +25,7 @@ async def on_ready():
     while 1:
         if not (datetime.now().time().strftime("%H:%M") in ["07:27", "19:27"]):
             wysiSent = False
+            sleep(50)
         elif not wysiSent:
             print("+=============================================================================================+")
             print("| It is the current local time of the funny WYSI cookiezi funny blue zenith 727 funny number! |")
