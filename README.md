@@ -36,7 +36,7 @@ I want to eject myself from this plane of existence.
 ### Exercise caution during script usage
 
 ```
-I am legally not responsable for anyone affected by WYSI hysteria.
+I am legally not responsible for anyone affected by WYSI hysteria.
 YOU HAVE BEEN WARNED!
 ```
 
