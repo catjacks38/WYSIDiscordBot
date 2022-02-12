@@ -29,11 +29,10 @@ async def on_ready():
         elif not wysiSent:
             print("+=============================================================================================+")
             print("| It is the current local time of the funny WYSI cookiezi funny blue zenith 727 funny number! |")
-            print(f"|                    Sending messages to user IDs listed in {configFn}...                     |")
+            print("|" + " "*((52 - len(configFn)) // 2) + f"Sending messages to user IDs listed in {configFn}..." + " "*((51 - len(configFn)) // 2) + "|")
             print("+=============================================================================================+")
             for dm in dmIDs:
-                await (await client.fetch_user(dm)).send("WYSI")
-                await (await client.fetch_user(dm)).send("WYFSI")
+                await (await client.fetch_user(dm)).send("WYSI\nWYFSI")
                 await (await client.fetch_user(dm)).send("https://tenor.com/view/wysi-gif-21694798")
             wysiSent = True
 
