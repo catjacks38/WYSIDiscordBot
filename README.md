@@ -40,11 +40,9 @@ I am legally not responsible for anyone affected by WYSI hysteria.
 YOU HAVE BEEN WARNED!
 ```
 
-## Python Prerequisites
-- Python >= 3.5
-- discord.py
+## Requirements
+- Install required packages with `pip3 install -r requirements.txt`
 
 ## CLI Usage
-- Windows: `python bot.py <config filepath>`
-- Linux: `python3 bot.py <config filepath>`
+- `python3 bot.py <config filepath>`
 - Check `example.cfg` for how to configure the config file
